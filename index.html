@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>hardik's component library</title>
+    <link href="styles.css" rel="stylesheet"/>
 </head>
 
 <body>
@@ -16,40 +17,42 @@
     <h1>This is the biggest heading.</h1>
     <h2>This is the second biggest heading.</h2>
     <p>This is the normal free flowing text, it wraps at the end like a paragraph.</p>
+    <p>This paragraph will have a <strong>bold</strong> text.</p>
     <small>This is relatively small text.</small>
     <hr>
 
 
     <h2>@container</h2>
     <h3>@fluid container</h3>
-    <div>This is a fluid container, it will go till the end of the page.</div>
+    <div class="container container-fluid">This is a fluid container, it will go till the end of the page.</div>
 
     <h3>@center container</h3>
-    <div>This is a centered container, it will go till the specified width.</div>
+    <div class= "container container-center">This is a centered container, it will go till the specified width.</div>
     <hr>
 
     <h2>@links</h2>
-    <a href="/">Primary link</a>
-    <a href="/">Secondary link</a>
+    <a class="link primary-link" href="/">Primary link</a>
+    <a class="link secondary-link" href="/">Secondary link</a>
     <hr>
 
     <h2>@lists</h2>
     <h3>Unordered lists</h3>
-    <ul>
+    <p>This list will have no bullets.</p>
+    <ul class="list-non-bullet">
         <li>item one</li>
         <li>item two</li>
         <li>item three</li>
     </ul>
 
     <h3> unordered inline list</h3>
-    <ul>
-        <li>inline item one</li>
-        <li>inline item two</li>
-        <li>inline item three</li>
+    <ul class="list-non-bullet">
+        <li class= "list-items-inline">inline item one</li>
+        <li class= "list-items-inline">inline item two</li>
+        <li class= "list-items-inline">inline item three</li>
     </ul>
 
     <h3>reverse order list</h3>
-    <ol>
+    <ol reversed>
         <li>one</li>
         <li>two</li>
         <li>three</li>
@@ -57,16 +60,16 @@
     <hr>
 
     <h2>@nav</h2>
-    <nav>
-        <div>PORTFOLIO</div>
-        <ul>
-            <li>
+    <nav class= "navigation">
+        <div class="navBrand">IamBrand</div>
+        <ul class="list-not-bullet">
+            <li class="list-items-inline">
                 <a href="/">home</a>
             </li>
-            <li>
+            <li class="list-items-inline">
                 <a href="/">projects</a>
             </li>
-            <li>
+            <li class="list-items-inline">
                 <a href="/">about</a>
             </li>
         </ul>
