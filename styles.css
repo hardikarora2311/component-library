@@ -57,6 +57,7 @@ hr {
 .list-items-inline {
     display: inline;
     padding: 0rem 0.5rem;
+
 }
 
 
@@ -75,6 +76,7 @@ hr {
 
 .navigation .navBrand {
     font-weight: bold;
+    font-size: large;
 }
 
 .navigation .link {
@@ -91,6 +93,7 @@ hr {
 
 .hero {
     padding: 2rem;
+    padding-top: 4rem;
 }
 
 .hero .hero-image {
@@ -135,4 +138,9 @@ hr {
 
 .footer ul{
     padding-inline-start: 0px;
+}
+
+.footer .footer-heading{
+    font-weight: bold;
+    font-size: large;
 }
