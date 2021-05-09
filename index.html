@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>hardik's component library</title>
-    <link href="styles.css" rel="stylesheet"/>
+    <link href="styles.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -27,7 +27,7 @@
     <div class="container container-fluid">This is a fluid container, it will go till the end of the page.</div>
 
     <h3>@center container</h3>
-    <div class= "container container-center">This is a centered container, it will go till the specified width.</div>
+    <div class="container container-center">This is a centered container, it will go till the specified width.</div>
     <hr>
 
     <h2>@links</h2>
@@ -46,9 +46,9 @@
 
     <h3> unordered inline list</h3>
     <ul class="list-non-bullet">
-        <li class= "list-items-inline">inline item one</li>
-        <li class= "list-items-inline">inline item two</li>
-        <li class= "list-items-inline">inline item three</li>
+        <li class="list-items-inline">inline item one</li>
+        <li class="list-items-inline">inline item two</li>
+        <li class="list-items-inline">inline item three</li>
     </ul>
 
     <h3>reverse order list</h3>
@@ -60,51 +60,64 @@
     <hr>
 
     <h2>@nav</h2>
-    <nav class= "navigation">
-        <div class="navBrand">IamBrand</div>
-        <ul class="list-not-bullet">
+    <nav class="navigation">
+        <div class="navBrand">iAmBrand</div>
+        <ul class="list-non-bullet nav-pills">
             <li class="list-items-inline">
-                <a href="/">home</a>
+                <a class="link link-active" href="/">home</a>
             </li>
             <li class="list-items-inline">
-                <a href="/">projects</a>
+                <a class="link" href="/">products</a>
             </li>
             <li class="list-items-inline">
-                <a href="/">about</a>
+                <a class="link" href="/">about</a>
             </li>
         </ul>
     </nav>
     <hr>
 
-    <h2>header</h2>
+    <h2>@header</h2>
 
-    <header>
-        <img src="images/hero.svg" />
-        <h1>heading inside hero</h1>
+    <header class="hero">
+        <img class="hero-image" src="images/hero.svg" />
+        <h1 class="hero-heading">heading inside hero</h1>
     </header>
     <hr>
 
     <h2>@sections</h2>
 
-    <section>
-        <h3>white section</h3>
-        <p>This will have white background.</p>
+    <section class="section">
+        <div class="container container-center">
+            <h1>white section</h1>
+            <p>This will have white background.</p>
+
+        </div>
+
     </section>
-    <section>
-        <h3>center section</h3>
-        <p>This will have grey background.</p>
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>center section</h1>
+            <p>This will have gray background.</p>
+        </div>
+
     </section>
 
     <hr>
 
     <h2>@footer</h2>
 
-    <footer>
-        <div> Some small heading inside footer.</div>
-        <ul>
-            <li>social one</li>
-            <li>socialtwo</li>
-            <li>socialthree</li>
+    <footer class="footer">
+        <div class="footer-heading"> Some small heading inside footer.</div>
+        <ul class="list-non-bullet socials">
+            <li class="list-items-inline"> 
+                <a class="link" href="/" >social one</a>
+            </li>
+            <li class="list-items-inline">
+                <a class="link" href="/" >social two</a>
+            </li>
+            <li class="list-items-inline">
+                <a class="link" href="/" >social three</a>
+            </li>
         </ul>
     </footer>
 
