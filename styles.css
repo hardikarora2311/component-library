@@ -21,6 +21,8 @@ hr {
 .container {
     padding-left: 1rem;
     padding-right: 1rem;
+    /* padding-bottom: 2rem;
+    padding-top: 2rem; */
 }
 
 .container-center {
@@ -58,6 +60,10 @@ hr {
     display: inline;
     padding: 0rem 0.5rem;
 
+}
+
+.list-items-sequence{
+    padding: 2em 0;
 }
 
 
